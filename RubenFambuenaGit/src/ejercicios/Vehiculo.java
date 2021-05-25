@@ -9,4 +9,8 @@ public class Vehiculo {
 		this.numPuertas = numPuertas;
 		this.numRuedas = numRuedas;
 	}
+	
+	public void showInfo() {
+		System.out.println("Soy un vehiculo.");
+	}
 }
